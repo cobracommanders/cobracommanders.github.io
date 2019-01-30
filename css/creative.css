@@ -499,3 +499,6 @@ body {
   height: 100px;
   background-color:#BEBBBB
 }
+.row > li {
+  font-size: 30px;
+}
