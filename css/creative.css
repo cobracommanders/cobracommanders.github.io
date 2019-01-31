@@ -259,7 +259,7 @@ body.home {
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
-	background-image: url('../img/header.jpg');
+	background-image: url('../img/gallery/indexImage1.jpg');
 	background-repeat:no-repeat;
 	text-align: center;
 	color: #00A2E8;
@@ -273,10 +273,38 @@ body.outreach {
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
-	background-image: url('../img/headeroutreach.png');
+	background-image: url('../img/gallery/outreachHeader.JPG');
 	background-repeat:no-repeat;
-	text-align: center;
-	color: #00A2E8;
+  text-align: center;
+  color: #00A2E8;
+}
+.header-outreach-2019 {
+  position: relative;
+	width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url('../img/gallery/outreachImage2019.jpeg');
+	background-repeat:no-repeat;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.header-outreach-2017 {
+  position: relative;
+	width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url('../img/headeroutreach.jpg');
+	background-repeat:no-repeat;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
 }
 .section-heading {
   margin-top: 0;
