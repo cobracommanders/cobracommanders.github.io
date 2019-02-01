@@ -5,5 +5,6 @@ FRC Team 498 - The Cobra Commanders Website - http://team498.com
 * **Randy Pham** - *Front End Developer Lead* - [RandyyPham](https://github.com/randyypham)
 * **Micah Neitz** - *Front End Developer* - [Micalobia](https://github.com/micalobia)
 * **Matthew Ryszkowski** - *Front End Developer* - [mattattack498](https://github.com/mattattack498)
+* **Katy Hochstetler** - *Front End Developer* - [bandgeek2031](https://github.com/bandgeek2031)
 * **Damien Pedra** - *Junior Front End Developer* - [Damian Pedra](https://github.com/DamianPX)
 * **Kirshe Cornfield** - *Junior Front End Developer* - [hershey2314](https://github.com/hershey2314)
