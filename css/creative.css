@@ -276,8 +276,6 @@ body.outreach {
 	background-position: center;
 	background-image: url('../img/gallery/outreachHeader.JPG');
 	background-repeat:no-repeat;
-  text-align: center;
-  color: #00A2E8;
 }
 body.sponsors {
   position: relative;
@@ -300,7 +298,7 @@ body.robot {
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
-	background-image: url('../img/');
+	background-image: url('../img/gallery/robotimage.jpg');
 	background-repeat:no-repeat;
 }
 .header-outreach-2019 {
