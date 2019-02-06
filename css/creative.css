@@ -302,7 +302,7 @@ body.robot {
 	background-repeat:no-repeat;
 }
 body.team {
-  
+
 }
 .header-outreach-2019 {
   position: relative;
@@ -567,7 +567,7 @@ img::-moz-selection {
   font-size: 30px;
 }
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 5px;
 }
 ::-webkit-scrollbar-track {
   display: none;
@@ -575,7 +575,4 @@ img::-moz-selection {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: rgba(0, 162, 232, 0.9);
-}
-::-webkit-scrollbar {
-  width: 5px;
 }
