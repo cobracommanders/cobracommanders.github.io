@@ -50,6 +50,41 @@
         scale: 0.3,
         distance: '0px'
     }, 800);
+    sr.reveal('.sr-row-3', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-4', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-5', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-6', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-7', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-8', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-9', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
     sr.reveal('.sr-button', {
         duration: 1000,
         delay: 200
