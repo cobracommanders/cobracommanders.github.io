@@ -9,6 +9,7 @@ body {
   width: 100%;
 }
 body {
+  webkit-tap-highlight-color: #222222;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 hr {
@@ -256,10 +257,11 @@ body.home {
 	min-height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+  -ms-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
-	background-image: url('../img/header.jpg');
+	background-image: url('../img/gallery/indexImage1.jpg');
 	background-repeat:no-repeat;
 	text-align: center;
 	color: #00A2E8;
@@ -270,16 +272,123 @@ body.outreach {
 	min-height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+  -ms-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
-	background-image: url('../img/headeroutreach.png');
+	background-image: url('../img/gallery/outreachHeader.JPG');
 	background-repeat:no-repeat;
-	text-align: center;
-	color: #00A2E8;
+}
+body.sponsors {
+  position: relative;
+	width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  -ms-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url('../img/sponsors.png');
+	background-repeat:no-repeat;
+}
+body.robot {
+  position: relative;
+	width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  -ms-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url('../img/gallery/robotimage.jpg');
+	background-repeat:no-repeat;
+}
+body.team {
+  position: relative;
+	width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  -ms-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url('../img/gallery/teamHeader.jpeg');
+	background-repeat:no-repeat;
+}
+.header-compass {
+  position: relative;
+	width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url('../img/gallery/compassImage.jpeg');
+	background-repeat:no-repeat;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.header-outreach-2019 {
+  position: relative;
+	width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  -ms-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url('../img/gallery/outreachImage2019.jpg');
+	background-repeat:no-repeat;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.header-outreach-2018 {
+  position: relative;
+	width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  -ms-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url('../img/gallery/outreachImage2018.jpeg');
+	background-repeat:no-repeat;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.header-outreach-2017 {
+  position: relative;
+	width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  -ms-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url('../img/headeroutreach.jpg');
+	background-repeat:no-repeat;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
 }
 .section-heading {
   margin-top: 0;
+}
+.box {
+  padding: 5px 2px;
+  box-shadow: none;
+  -webkit-transition: box-shadow .5s;
+  transition: box-shadow .5s;
+}
+.box:hover {
+  box-shadow: 0px 2px 5px 2px #00A2E8;
 }
 .service-box {
   max-width: 400px;
@@ -481,12 +590,21 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
-body {
-  webkit-tap-highlight-color: #222222;
-}
-
 .photo {
   width: 100px;
   height: 100px;
   background-color:#BEBBBB
+}
+.row > li {
+  font-size: 30px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 162, 232, 0.9);
 }

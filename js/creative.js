@@ -1,8 +1,8 @@
-(function($) {
+(function ($) {
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('a.page-scroll').bind('click', function(event) {
+    $('a.page-scroll').bind('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
@@ -17,7 +17,7 @@
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function() {
+    $('.navbar-collapse ul li a').click(function () {
         $('.navbar-toggle:visible').click();
     });
 
@@ -27,7 +27,7 @@
             top: 100
         }
     })
-
+    
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
@@ -35,6 +35,56 @@
         scale: 0.3,
         distance: '0px'
     }, 200);
+    sr.reveal('.sr-row-1', { // one row of box - purpose of this is that it will trigger reveals at separate rows.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-2', { // another row of box
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-3', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-3', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-4', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-5', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-6', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-7', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-8', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
+    sr.reveal('.sr-row-9', { // another row of box, etc.
+        duration: 1500,
+        scale: 0.3,
+        distance: '0px'
+    }, 800);
     sr.reveal('.sr-button', {
         duration: 1000,
         delay: 200
