@@ -257,6 +257,7 @@ body.home {
 	min-height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+  -ms-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
@@ -271,6 +272,7 @@ body.outreach {
 	min-height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+  -ms-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
@@ -283,6 +285,7 @@ body.sponsors {
 	min-height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+  -ms-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
@@ -295,6 +298,7 @@ body.robot {
 	min-height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+  -ms-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
@@ -307,11 +311,27 @@ body.team {
 	min-height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+  -ms-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
 	background-image: url('../img/gallery/teamHeader.jpeg');
 	background-repeat:no-repeat;
+}
+.header-compass {
+  position: relative;
+	width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url('../img/gallery/compassImage.jpeg');
+	background-repeat:no-repeat;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
 }
 .header-outreach-2019 {
   position: relative;
@@ -319,6 +339,7 @@ body.team {
 	min-height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+  -ms-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
@@ -333,6 +354,7 @@ body.team {
 	min-height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+  -ms-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
@@ -347,6 +369,7 @@ body.team {
 	min-height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+  -ms-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
