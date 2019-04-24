@@ -316,7 +316,7 @@ body.team {
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
-	background-image: url('../img/gallery/teamHeader.jpeg');
+	background-image: url('../img/gallery/teamHeader.jpg');
 	background-repeat:no-repeat;
 }
 .header-compass {
