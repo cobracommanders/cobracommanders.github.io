@@ -259,6 +259,16 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 }
+.main-logo {
+  width: 550px;
+  height: 300px;
+}
+@media (max-width: 900px) {
+  .main-logo {
+    width: 275px;
+    height: 150px;
+  }
+}
 body.home {
 	position: relative;
 	width: 100%;
