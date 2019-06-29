@@ -673,3 +673,13 @@ img::-moz-selection {
   border-radius: 10px;
   background: rgba(78, 195, 249, 0.9);
 }
+.chezy {
+  width: initial;
+  height: initial;
+}
+  @media (max-width: 900px) {
+    .chezy {
+      width: 275px;
+      height: 150px;
+  }
+}
