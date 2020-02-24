@@ -36,52 +36,52 @@
         distance: '0px'
     }, 200);
     sr.reveal('.sr-row-1', { // one row of box - purpose of this is that it will trigger reveals at separate rows.
-        duration: 1500,
+        duration: 1000,
         scale: 0.3,
         distance: '0px'
     }, 800);
     sr.reveal('.sr-row-2', { // another row of box
-        duration: 1500,
+        duration: 1000,
         scale: 0.3,
         distance: '0px'
     }, 800);
     sr.reveal('.sr-row-3', { // another row of box, etc.
-        duration: 1500,
+        duration: 1000,
         scale: 0.3,
         distance: '0px'
     }, 800);
     sr.reveal('.sr-row-3', { // another row of box, etc.
-        duration: 1500,
+        duration: 1000,
         scale: 0.3,
         distance: '0px'
     }, 800);
     sr.reveal('.sr-row-4', { // another row of box, etc.
-        duration: 1500,
+        duration: 1000,
         scale: 0.3,
         distance: '0px'
     }, 800);
     sr.reveal('.sr-row-5', { // another row of box, etc.
-        duration: 1500,
+        duration: 1000,
         scale: 0.3,
         distance: '0px'
     }, 800);
     sr.reveal('.sr-row-6', { // another row of box, etc.
-        duration: 1500,
+        duration: 1000,
         scale: 0.3,
         distance: '0px'
     }, 800);
     sr.reveal('.sr-row-7', { // another row of box, etc.
-        duration: 1500,
+        duration: 1000,
         scale: 0.3,
         distance: '0px'
     }, 800);
     sr.reveal('.sr-row-8', { // another row of box, etc.
-        duration: 1500,
+        duration: 1000,
         scale: 0.3,
         distance: '0px'
     }, 800);
     sr.reveal('.sr-row-9', { // another row of box, etc.
-        duration: 1500,
+        duration: 1000,
         scale: 0.3,
         distance: '0px'
     }, 800);
