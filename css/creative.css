@@ -683,6 +683,9 @@ img::-moz-selection {
       height: 150px;
   }
 }
+.banner-container {
+  text-align: center;
+}
 .banner {
   background: #0f4bcb;
   display: inline-block;
@@ -722,12 +725,14 @@ img::-moz-selection {
   margin: 0;
   margin-top: 3px;
   margin-bottom: 3px;
+  color: rgba(255, 255, 255, 0.7);
 }
 .banner .award-event {
   display: table;
   text-transform: uppercase;
   height: 50px;
   width: 100%;
+  color: rgba(255, 255, 255, 0.7);
 }
 .chezy-banner {
   background: #222222;
