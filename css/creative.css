@@ -346,6 +346,21 @@ body.team {
 	background-image: url('../img/gallery/teamHeader.jpg');
 	background-repeat:no-repeat;
 }
+body.resources {
+  position: relative;
+	width: 100%;
+  min-height: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  -ms-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url('../img/gallery/resourcesHeader.jpg');
+	background-repeat:no-repeat;
+}
 .header-compass {
   position: relative;
 	width: 100%;
