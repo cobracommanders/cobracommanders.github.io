@@ -85,6 +85,7 @@
         scale: 0.3,
         distance: '0px'
     }, 800);
+    // TODO: need to find a better way for revealing boxes
     sr.reveal('.sr-button', {
         duration: 1000,
         delay: 200
