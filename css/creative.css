@@ -781,3 +781,14 @@ img::-moz-selection {
   max-height: 57px;
   margin-left: 32px;
 }
+
+.test {
+  background-color: red;
+}
+.test p {
+  text-align: center;
+  color: white;
+}
+.test2 {
+  background-color: blue;
+}
