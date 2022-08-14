@@ -54,7 +54,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #4ec3f9;
+  background-color: #aaaaaa;
 }
 .bg-dark {
   background-color: #111111;
@@ -411,6 +411,9 @@ body.team {
 .bg-container {
   background-color: #111111bb;
 }
+.word-container {
+  background-color: #464646bb;
+}
 .section-heading {
   margin-top: 0;
 }
@@ -490,10 +493,10 @@ body.team {
   }
 }
 .call-to-action h2 {
-  margin: 0 auto 20px;
+  margin: 0 auto 0px;
 }
 .text-primary {
-  color: #4ec3f9;
+  color: #4DC6FF;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -549,8 +552,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #4ec3f9;
-  border-color: #4ec3f9;
+  background-color: #4DC6FF;
+  border-color: #4DC6FF;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -562,7 +565,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #4ec3f9;
+  background-color: #4DC6FF;
   border-color: #0083BB;
 }
 .btn-primary:active,
@@ -588,11 +591,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #4ec3f9;
-  border-color: #4ec3f9;
+  background-color: #4DC6FF;
+  border-color: #4DC6FF;
 }
 .btn-primary .badge {
-  color: #4ec3f9;
+  color: #4DC6FF;
   background-color: white;
 }
 .btn {
@@ -651,7 +654,7 @@ img::-moz-selection {
   left: 0;
   right: 100%;
   top: 90%; /*90% for bottom, 0% for top*/
-  background: #4ec3f9;
+  background: #4DC6FF;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
