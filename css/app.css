@@ -219,7 +219,7 @@ div.demo-lazy {
   color: #fff;
 }
 .demo-card-header-pic .card-content-inner .date{
-  color: #8e8e93;
+  color:#3D5A80;
 }
 .demo-facebook-card .card-header {
   display: block;
@@ -252,7 +252,7 @@ div.demo-lazy {
   padding: 15px 10px;
 }
 .demo-facebook-card .card-content-inner .likes {
-  color: #8e8e93;
+  color:#3D5A80;
 }
 /* Panels Demo */
 .ios .panel-right.panel-active ~ .view-main:after,

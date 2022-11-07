@@ -21,7 +21,7 @@ body {
   background-color: #111111;
 }
 hr {
-  border-color: #4ec3f9;
+  border-color: #4DC6FF;
   border-width: 3px;
   max-width: 50px;
 }
@@ -32,7 +32,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #4ec3f9;
+  color: #4DC6FF;
 }
 a:hover,
 a:focus {
@@ -45,7 +45,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway-Bold", sans-serif;
-  color: #4ec3f9;
+  color: #4DC6FF;
 }
 p {
   font-family: "Raleway-Bold", sans-serif;
@@ -54,7 +54,10 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #4ec3f9;
+  background-color: #4DC6FF;
+}
+.bg-secondary {
+  background-color: #3D5A80;
 }
 .bg-dark {
   background-color: #111111;
@@ -81,7 +84,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #4ec3f9;
+  color: #4DC6FF;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -154,7 +157,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #4ec3f9;
+    color: #4DC6FF;
   }
 }
 
@@ -284,7 +287,7 @@ body.home {
 	background-image: url('../img/gallery/robotics\ -\ Copy.jpeg');
 	background-repeat:no-repeat;
 	text-align: center;
-	color: #4ec3f9;
+	color: #4DC6FF;
 }
 body.outreach {
 	position: relative;
@@ -328,7 +331,6 @@ body.robot {
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
-	background-image: url('../img/gallery/robotimage.jpg');
 	background-repeat:no-repeat;
 }
 body.team {
@@ -421,7 +423,7 @@ body.team {
   transition: box-shadow 0.5s;
 }
 .box:hover {
-  box-shadow: 0px 2px 5px 2px #4ec3f9;
+  box-shadow: 0px 2px 5px 2px #4DC6FF;
 }
 .service-box {
   max-width: 400px;
@@ -445,7 +447,7 @@ body.team {
   color: white;
   opacity: 0;
   display: block;
-  background: #4ec3f9;
+  background: #4DC6FF;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -493,7 +495,7 @@ body.team {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #4ec3f9;
+  color: #4DC6FF;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -549,8 +551,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #4ec3f9;
-  border-color: #4ec3f9;
+  background-color: #4DC6FF;
+  border-color: #4DC6FF;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -562,7 +564,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #4ec3f9;
+  background-color: #4DC6FF;
   border-color: #0083BB;
 }
 .btn-primary:active,
@@ -588,11 +590,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #4ec3f9;
-  border-color: #4ec3f9;
+  background-color: #4DC6FF;
+  border-color: #4DC6FF;
 }
 .btn-primary .badge {
-  color: #4ec3f9;
+  color: #4DC6FF;
   background-color: white;
 }
 .btn {
@@ -651,7 +653,7 @@ img::-moz-selection {
   left: 0;
   right: 100%;
   top: 90%; /*90% for bottom, 0% for top*/
-  background: #4ec3f9;
+  background: #4DC6FF;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -671,7 +673,7 @@ img::-moz-selection {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: rgba(78, 195, 249, 0.9);
+  background: #4DC6FF;
 }
 .chezy {
   width: initial;
